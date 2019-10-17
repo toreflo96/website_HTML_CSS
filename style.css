@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color:rgba(50, 50, 50, 1);
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header li {
+  margin: 20px;
+}
+
+header a {
+  text-decoration: underline;
+  color: white;
+}
+
+header a:hover {
+  color: red;
+}
+
+
+section {
+  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color:rgba(100,100,100,1)
+}
+
+#hero .profile-img {
+  margin-top: 40px;
+  margin-left: 200px;
+  width: 500px;
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-left: 200px;
+}
+
+#about {
+  height: 240vh;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 2.5em;
+}
+
+p {
+  margin-left: 200px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 1.5em;
+}
+
+section li {
+  margin-left: 200px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+section table, th, td {
+  border: 1px solid black;
+  text-align: left;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th {
+  font-size: 1.5em;
+}
+
+section a {
+  color: white;
+}
+
+section a:hover {
+  color: red;
+}
